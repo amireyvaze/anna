@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# VS Code / IDEs
+.vscode/
+.idea/
+
+# Node
+node_modules/
+theme/node_modules/
+dist/
+build/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+
+# OS
+Thumbs.db
+
+# Misc
+*.swp
+*~
